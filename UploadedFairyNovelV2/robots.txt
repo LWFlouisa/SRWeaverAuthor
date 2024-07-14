@@ -1,4 +1,4 @@
-Sitemap: https://uploadedfairywebfiction.loophole.site/
+Sitemap: https://lwflouisa.github.io/SRWeaverAuthor/UploadedFairyNovelV2
 
 # ChatGPT is completely disallowed
 User-agent: ChatGPT-User
