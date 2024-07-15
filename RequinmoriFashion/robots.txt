@@ -1,0 +1,4 @@
+Sitemap: https://uploadedfairywebfiction.loophole.site/RequinmoriFashion
+
+User-agent: *
+Disallow: /
