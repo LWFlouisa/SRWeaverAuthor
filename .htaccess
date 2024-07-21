@@ -1,1 +1,3 @@
-X-Robots-Tag: robots: noindex, nofollow, nosnippet, noarchive, noimageindex
+<Files ~ "\">
+Header set X-Robots-Tag "noindex, nofollow, nosnippet, noarchive, noimageindex"
+</Files>
