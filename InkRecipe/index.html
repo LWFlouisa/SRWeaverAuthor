@@ -9,7 +9,18 @@
          This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
-  <body>
+
+  <script>
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); // Prevent the default right-click behavior
+      alert("Sorry you can't have my images.'!");
+      return false;
+    }
+  }
+  </script>
+  
+  <body oncontextmenu="disableRightClick(event)">
 
 <h1>What is Oil Gouache Ink</h1>
 
