@@ -17,7 +17,9 @@
   function disableRightClick(event) {
     if (event.button == 2) {
       event.preventDefault(); // Prevent the default right-click behavior
-      alert("Sorry you can't have my images.'!");
+      alert("This page isn't for you to grab copies of, just click links normally.");
+
+      location.reload("https://lwflouisa.github.io/SRWeaverAuthor/OldIllustrations)
       return false;
     }
   }
