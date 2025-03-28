@@ -1,0 +1,1181 @@
+<!doctype html>
+<html>
+  <title></title>
+
+  <meta name="robots" content="noindex">
+  <meta name="robots" content="nofollow">
+  <meta name="robots" content="nosnippet">
+  <meta name="robots" content="noarchive">
+  <meta name="robots" content="noimageindex">
+  <meta name="robots" content="notranslate">
+
+  <style>
+    body {
+      background-image: linear-gradient(85deg, #000000, #1E2221, #3C4341, #232d26);
+      border: solid #17171F 12px;
+
+      padding-left: 256px;
+      padding-right: 256px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, pre {
+      color: #9EA1A0;
+      font-family: monospace;
+      font-size: 16px;
+
+      padding-left: 256px;
+      padding-right: 256px;
+    }
+
+    a {
+      color: #9EA1A0;
+      font-family: monospace;
+      font-size: 16px;
+
+      padding-left: 256px;
+      padding-right: 256px;
+    }
+
+    div {
+      background-image: linear-gradient(85deg, #000000, #1E2221, #3C4341, #232d26);
+      background-color: #232d26;
+      font-family: monospace;
+      font-size: 16px;
+
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+
+    .tags, .playlist {
+      background-image: linear-gradient(25deg, #000000, #1E2221, #232d26);
+      color: #9EA1A0;
+
+      padding-left: 256px;
+      padding-right: 256px;
+    }
+
+    .translation {
+      color: #C3BFBC;
+      background-image: linear-gradient(75deg, #000000, #4f0000);
+
+      padding-left: 256px;
+      padding-right: 256px;
+    }
+
+    .gunmetal {
+      color: #F4F1E8;
+      background-image: linear-gradient(25deg, #000000, #636260, #7c7d7f);
+      font-family: Hafestran;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: justified;
+    }
+
+    @font-face {
+      font-family: Hafestran;
+      src: url("https://lwflouisa.github.io/Blogfolio/fonts/HafestranFont-Regular.otf");
+      text-transform: lowercase;
+    }
+
+video {
+  width: 560px;
+}
+
+#playlist {
+  width: 560px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.active a {
+  color: #8c8397;
+  text-decoration: none;
+
+  font-family: Hafestran;
+  font-size: 28px;
+}
+
+li a {
+  color: #4a514c;
+  background-color: #171619;
+  padding: 12px;
+  display: block;
+}
+li a:hover {
+  text-decoration: none;
+}
+  </style>
+
+  <title>Portfolio</title>
+
+  <a rel="me" href="https://comics.town/@lwflouisa">Comics Town</a>
+  <a rel="me" href="https://kpop.social/@LWFlouisa">KPop Social</a>
+  <a rel="me" href="https://metalhead.club/@LWFlouisa">Metalhead Club</a>
+  <a rel="me" href="https://video.ploud.jp/a/lwflouisa/video-channels">Peertube</a>
+
+  <meta name="robots" content="noindex">
+  <meta name="robots" content="nofollow">
+  <meta name="robots" content="nosnippet">
+  <meta name="robots" content="noarchive">
+  <meta name="robots" content="noimageindex">
+  <meta name="robots" content="notranslate">
+  <body>
+    <!--<main>-->
+      <div>
+       <div class="gunmetal">
+       <hr />
+       <a class="gunmetal" href="https://lwflouisa.neocities.org/Blogfolio/mobile">mobile site</a>
+       <hr />
+       <p>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/blog'>blog</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/stories'>btories</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/poetry'>poetry</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/backgroundart'>background Art</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/charactersketches'>character sketches</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/graphicnovelscript'>graphic novel script</a>
+       <a class="gunmetal" href="https://lwflouisa.neocities.org/Blogfolio/audiobookP2"">audiobook for part two</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/recipe'>ink gouche recipe</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/samplepages'>sample pages</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/coreconcepts'>core concepts</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/Blogfolio/glossary'>glossary</a>
+       <a class="gunmetal" href='https://lwflouisa.github.io/SRWeaverPodcast/'>podcast</a>
+       <a class="gunmetal" href='https://lwflouisa.neocities.org/'>main site</a>
+       </p>
+       <hr />
+       </div>
+
+       <div>
+         <h3>Frequently Asked Questions</h3>
+         <a href='https://lwflouisa.github.io/Blogfolio/frequentlyaskedquestions/'>Ask Me</a>
+         <a href='https://lwflouisa.github.io/Blogfolio/compass/'>Political Compass</a>
+       </div>
+
+       <div>
+         <h3>Autonomous Color Candidate Selection And Synthesis System</h3>
+         <a href='https://github.com/LWFlouisa/PalettierAssistant'>Palettier Assistant</a>
+         <h4>Coming Soon</h4>
+         <a href=''>Palettier Language</a>
+       </div>
+       <hr />
+
+       <div>
+         <h3>Storyboard</h3>
+         <a href='https://lwflouisa.github.io/Blogfolio/posts/uploadedfairystoryboard'>Uploaded Fairy Storyboard</a>
+       </div>
+
+       <hr />
+       <center><h3>S.R. Weaver TV</h3></center>
+       <ol>
+<!--         <ul>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/WhyIUseColdGreyPastelAsAnUnderpainting'>Why I Use Cold Grey Pastel As An Underpainting</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/FullProcessReferenceGarment'>Reference Garment Lunar Phase 1</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/gijutsuchaletkiru'>Gijutsuchalet Kiru</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/survivalhorrorbrat'>Survival Horror Brat</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/weepydress'>Weepy Dress</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/taupeandbluesweaterbra'>Taupe And Blue Sweater Bra</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/retrofuturegothicmetal'>Retrofuture Gothic Metal</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/letsbuildaminetesthouse'>Lets Build A Minetest House</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/catacombwaltzsketch'>Catacomb Waltz Sketch</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/mydysfunctionalro'>My Dysfunctional Romance</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/seancedesadako'>Seance De Sadako</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/lemusettedelivre'>Le Musette De Livre</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/deathmarchwithtemporaryrelief'>Death March With Temporary Relief</a></li>
+           <li><a href='https://lwflouisa.github.io/Blogfolio/posts/calligraphicfashionillustration'>Calligraphic Fashion Illustration</a></li>
+         </ul>-->
+         <center>
+
+         <iframe title="Peertube Shorts" width="560" height="315" src="https://video.ploud.jp/video-playlists/embed/043025b0-b73f-46aa-9af9-f35b76c37b1c" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe><br />
+
+         <!--<iframe title="Uploaded Fairy Webfiction" width="560" height="315" src="https://video.ploud.jp/video-playlists/embed/0abc3420-0caf-470c-aa20-064f61bff682" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>-->
+
+    <!-- Full Video Playlist -->
+
+    <video id="videoplaylist" preload="auto" tabindex="0" controls="" width="560px" height="315px">
+      <source src="https://lwflouisa.github.io/Blogfolio/videos/OldStoryboard.webm">
+    </video>
+
+    <ul id="playlist">
+          <li class="active">
+             <a href="https://lwflouisa.github.io/Blogfolio/videos/OldStoryboard.webm">
+               Old Storyboard Chapter 1
+             </a>
+          </li>
+
+          <li class="active">
+             <a href="https://lwflouisa.github.io/Blogfolio/videos/UploadedFairyOldStoryboardChapter2.webm">
+               Old Storyboard Chapter 2
+             </a>
+          </li>
+
+          <li class="active">
+             <a href="https://lwflouisa.github.io/Blogfolio/videos/WhatIsChronopunk.webm">
+               What Is Chronopunk?
+             </a>
+          </li>
+
+          <li class="active">
+            <a href="https://lwflouisa.github.io/Blogfolio/videos/ChromaticBlacksWithDoubleHarmonicOvertones.webm">
+              Chromatic Black With Double Harmonic Overtones
+            </a>
+          </li>
+      </ul>
+    
+    <!-- Shorts Playlist-->
+    <video id="videoplaylist" preload="auto" tabindex="0" controls="" width="560px" height="315px">
+      <source src="https://lwflouisa.github.io/Blogfolio/videos/NeonBloodWithHauntedSurf.mp4">
+    </video>
+
+    <ul id="playlist">
+          <li class="active">
+             <a href="https://lwflouisa.github.io/Blogfolio/videos/NeonBloodWithHauntedSurf.mp4">
+               neon blood and the haunted surf
+             </a>
+          </li>
+
+          <li>
+            <a href="https://lwflouisa.github.io/Blogfolio/videos/LotusAndTheCockroachTimelapse.mp4">
+               lotus and the cockroach
+            </a>
+          </li>
+
+          <li>
+            <a href="https://lwflouisa.github.io/Blogfolio/videos/TriangularCraft.webm">
+              triangular craft
+            </a>
+          </li>
+
+          <li>
+            <a href="https://lwflouisa.github.io/Blogfolio/videos/BlackWhiteYellowOrangeWebM.webm">
+              black, white, orange, and yellow
+            </a>
+          </li>
+
+      </ul>
+         </center>
+       </ol>
+
+       <h3>New Updates</h3>
+       <ol>
+         <ul>
+           <li><a href="#emulsionpaints">2024 10 30 Emulsion Paints: Differences From Sumi Ink</a></li>
+           <li><a href="#updateontimelapsepublishing">2024 10 28 Update On Timelapse Publishing</a></li>
+           <li><a href="#simplestapproach">2024 10 07 The Simpliest Approach</a></li>
+           <li><a href='#test'>2024 10 07 I'm Not Sure What's Going On Here</a></li>
+         </ul>
+       </ol>
+
+       </div>
+      </div>
+      <hr />
+
+      <div id="gunmetel" class="kramdown" data-nosnippet>
+        <h1>Zombie Queen Of All</h1>
+<h2>Audio</h2>
+<center>
+  <iframe title="My Poetry" width="560" height="315" src="https://video.ploud.jp/video-playlists/embed/28b4f3dc-8e5c-4c3d-a1be-e0a9036a9eb1" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+</center>
+<h2>A Curation Of Poetry</h2>
+<hr />
+<h2>Atomic Roach</h2>
+<p>Opening the door,<br />
+The water begins to leak.<br />
+Roaches flow out<br />
+one by one, mind games<br />
+they play with humans. Giant</p>
+<p>Atomic roaches<br />
+flow out one by one<br />
+to big for swatting.<br />
+one by one, mind games<br />
+they play with humans. Giant</p>
+<p>Atomic roaches,<br />
+you better block the hose,<br />
+close that sucker shut.</p>
+<p>Before the roach becomes<br />
+Your bride and groom.<br />
+When humanity is doomed.</p>
+<p>Beware the Atomic Roach.</p>
+<hr />
+<h2>Beauty In Imperfection</h2>
+<p>Wabi sabi.<br />
+Beauty in the imperfection.<br />
+Wabi sabi.<br />
+Like morning rain with yellow red.<br />
+The rain clouds rise overhead<br />
+and drench the crimson raincoats.<br />
+Wabi sabi.</p>
+<p>La vie in rose.<br />
+With all its tragic flaws...<br />
+Midnight comes soon.</p>
+<p>CHORUS<br />
+Dont forget to live<br />
+with all lifes quirks,<br />
+the rain roses grass.</p>
+<p>With crimson raincoats<br />
+it covers up the blood<br />
+and sops up the rain.</p>
+<p>Wabi sabi.<br />
+Beauty in the imperfection.<br />
+Wabi sabi.<br />
+Like morning rain with yellow red.<br />
+The rain clouds rise overhead<br />
+and drench the crimson raincoats.<br />
+Wabi sabi.</p>
+<p>CHORUS<br />
+Perhaps the rain will<br />
+wash away the blood and tears.</p>
+<hr />
+<h2>Broken Angel</h2>
+<h3>Beneath A Pile Of Ash</h3>
+<p>In the past I slept<br />
+between the tent and the trees.<br />
+Yet now I wander.</p>
+<p>Long ago, from grass to<br />
+river I sip wine.<br />
+Yet not its dirty<br />
+water from the grave.<br />
+To not drink is brave.</p>
+<p>In the past I slept<br />
+between the tent and the trees.<br />
+Yet now I wander.</p>
+<p>I now wake up,<br />
+another eon has passed.<br />
+All the people see<br />
+an angel in the farmyard.<br />
+And yet secrets hide.</p>
+<p>In the past I slept<br />
+between the tent and the trees.<br />
+Yet now I wander.</p>
+<p>It takes one sin<br />
+To take my life away.<br />
+And yet it's you<br />
+Who sees no demon,<br />
+Under the skin of flames.</p>
+<p>But a broken angel,<br />
+Hidden beneath a pile of ash.</p>
+<hr />
+<h2>Circus Of Cybernetics</h2>
+<p>Once upon a<br />
+a midnight dream I witness<br />
+trophy heads upon<br />
+a wall at cozy circus.<br />
+But without clowns of blood.</p>
+<p>&quot;Can you help us find our bodies,<br />
+Or do you think we're nobodies?&quot;,<br />
+they say, beckoning me forth.</p>
+<p>In this cozy circus<br />
+there were cybernetics.</p>
+<p>In this midnight dream<br />
+was the national razor<br />
+with a freshly severed head.<br />
+But it was not a murderer or a clown.<br /></p>
+<p>&quot;Can you help me find my body,<br />
+Or do you think I'm a nobody?&quot;,<br />
+the severed head said.</p>
+<p>A severed head,<br />
+of some previous tourist.<br />
+She stole some cotton candy,<br />
+and a pair of wooden shoes.</p>
+<p>As I turned around,<br />
+this was no circus, but an office,<br />
+For preserving heads<br />
+of tourists, thinking it was a stageshow,<br />
+Of clowns without a presence.</p>
+<p>All those heads follow me around,<br />
+starring at me from the walls.<br />
+Cybernetic girls without their robot bodies.</p>
+<p>And once new body built,<br />
+Wore strange wooden shoes.<br />
+My cybernetic clown dream girls.</p>
+<hr />
+<h2>Lady In White</h2>
+<p>Girl in white<br />
+with daisies in her light brown hair.<br />
+Girl in white<br />
+with flowers scattered falling down.<br />
+Girl in whitev
+who represents no woman that<br />
+lives on Earth or in Heaven<br />
+above, to sweet for both.<br />
+Girl in white.</p>
+<p>The rain pours down<br />
+for me and you tonight, dear<br />
+Girl in white. That</p>
+<p>Lives in dreams.</p>
+<p>Girl in white<br />
+with daisies in her light brown hair.<br />
+Girl in white<br />
+with flowers scattered falling down.<br />
+Girl in white<br />
+who represents no woman that<br />
+lives on Earth or in Heaven<br />
+above, to sweet for both.<br />
+Girl in white.</p>
+<p>It was years that<br />
+a blade took my world from<br />
+me, lady dreams.</p>
+<p>To think that all I have<br />
+Is memories of<br />
+my darling lady<br />
+In white that haunts me<br />
+in my dreams. Fatefulv
+Day.</p>
+<p>The rain pours down<br />
+for me and you tonight, dear</p>
+<p>Girl in white.</p>
+<hr />
+<h2>Le Alsace De Decimation</h2>
+<p>I<br /></p>
+<p>Beneath the fields<br />
+In green, the Germans burn<br />
+Zillions, Alsace flowers<br />
+Must wither into all the ash.</p>
+<p>Alsace, rose<br />
+Red with evergreen.<br />
+Churn and decimate.</p>
+<p>Avenge the Alsace,<br />
+Mes vie de Paris.<br />
+Iglorious Allemain de mort.</p>
+<p>II<br /></p>
+<p>Germans scortch the<br />
+French by route of Roses
+in the Alsace.</p>
+<p>In a ring of fire<br />
+the Germans shot the arrows.<br />
+And now Alsace</p>
+<p>sits and waits, for<br />
+the flames to burn close.<br /></p>
+<p>Come France, rescue Alsace<br />
+from Decimation.</p>
+<hr />
+<h2>Lets Have A Smash At The Funeral Party</h2>
+<p>Lets have a smash,<br />
+At the funeral party.<br />
+The dance of ghouls of delight.<br />
+While we live to enjoy the night.</p>
+<p>You want to know<br />
+the difference between<br />
+Metal and Goth rock?</p>
+<p>Suppose we had a family,<br />
+make them friends of six or nine.<br />
+Ladies in both look quite divine.</p>
+<p>We are a riding<br />
+along a busy roadway, obeying the traffic signs<br />
+on skateboards.<br />
+Riding along with the back.<br />
+One group of three stays far behind.</p>
+<p>The other speeds right ahead.<br />
+For Goths we are normal<br />
+In that we lag behind to pick up a friend,<br />
+Overweight doesn't matter,<br />
+A friend is a friend.</p>
+<p>But unlike we normies,<br />
+We while we retrieve the crahsed friend<br />
+riding along his skateboard,<br />
+We also admire gods unruly brutal work.</p>
+<p>When the other group speeds along,<br />
+as smashes against a toad.<br />
+There splat is both the metalhead and the tpad.</p>
+<p>But that splatter fascinates us,<br />
+Not do to any particular anjoyment of death.<br />
+But because of how fragile life can be,<br />
+We your blind with aggression.</p>
+<p>Even if that's all metalheads know.</p>
+<p>But also we're dancing on graveyards,<br />
+Eating picnics at the same funeral party,<br />
+as our friend smashing against the toad.<br />
+At eighty miles an hour.</p>
+<p>Lets have a smash.</p>
+<hr />
+<h2>Life In Black And Red</h2>
+<p>Rose and black, a life in darkest midnight.<br />
+Rose and black, a falling sun in red bleeding.<br />
+The midnight starlight bleeds into<br />
+a rainy and stormy visit<br />
+to a secret lost to time.<br />
+Rose and black.</p>
+<p>Life in Red Black<br />
+with trees lurking over...<br />
+the crow sits on sign:</p>
+<p>&quot;Here lies the roadway,<br />
+filled with many secrets.<br />
+Some that wish to stay a mystery.<br />
+If you dare to come closer,<br />
+to see the world with new eyes,<br />
+you may observe the many lies around you.&quot;</p>
+<p>Rose and black, a life in darkest midnight.<br />
+Rose and black, a falling sun in red bleeding.<br />
+The midnight starlight bleeds into<br />
+a rainy and stormy visit<br />
+to a secret lost to time.<br />
+Rose and black.</p>
+<p>Im dont know what waits,<br />
+if I walk past the wooden sign,<br />
+Life in rose and black.</p>
+<p>Thus if I must explore,<br />
+a secret world, and find out things<br />
+mankind was never meant to know,<br />
+please think of me.</p>
+<p>My darling, Anna-Marie.</p>
+<hr />
+<h2>Ma Japon</h2>
+<p>From Mount Azo<br />
+to Tokyo streets<br />
+flowing,<br />
+I always will sleep<br />
+winters, with cherry<br />
+trees.<br />
+And this raw fish you<br />
+call Sushi, with BBQ<br />
+sauce.<br />
+Ma Japon.</p>
+<p>Although I am<br />
+without deception<br />
+for books<br />
+of girls with large<br />
+eyes, and twirling<br />
+wands, I cant help but drift<br />
+away to new things<br />
+to read.<br />
+Ma Japon.</p>
+<p>Perhaps it is I<br />
+cant relate to<br />
+to the<br />
+embrace of old<br />
+waifus, with their sweet<br />
+looks<br />
+reading other books<br />
+from city of &quot;le vin et<br />
+du pain&quot;.<br />
+Ma Japon.</p>
+<p>But it is that look<br />
+that some adore<br />
+that for<br />
+me makes me drift off<br />
+away to other lands<br />
+of gold.<br />
+Youll here about<br />
+working conditions,<br />
+manga<br />
+creators with their desks<br />
+underpayed and<br />
+hungry.<br />
+Ma Japon.</p>
+<p>And yet Winter has<br />
+arrived once more<br />
+for me, Ma Japon.<br />
+With mount Azo growing<br />
+distant, as I now go on.<br />
+Ma Japon.</p>
+<hr />
+<h2>Mary And Buddha</h2>
+<p>Midnight comes and<br />
+blows away like the wind...<br />
+cold raindrops spatter.</p>
+<p>Mother Mary<br />
+mother of Jesus holds babies.<br />
+Mother Mary<br />
+strewn pieces of her affection.<br />
+With Buddha shall rise again.<br />
+After the raindrops stop falling.<br />
+Mother Mary.</p>
+<p>And like life<br />
+she once faded, memory<br />
+of the midnight swans.</p>
+<p>Mother Mary<br />
+mother of Jesus holds babies.<br />
+Mother Mary<br />
+strewn pieces of her affection.<br />
+With Buddha shall rise again.<br />
+After the raindrops stop falling.<br />
+Mother Mary.</p>
+<p>And raised Jesus<br />
+to befriend Buddha, and raise<br />
+the world in her light.</p>
+<hr />
+<h2>Midnight Christmas</h2>
+<p>Midnight Christmas,<br />
+All the toys fall to pieces.<br />
+Midnight Christmas,<br />
+before the arsenic<br />
+slips into the bloodstream.<br />
+And razor blade falls on you.<br />
+Tonight.<br />
+Midnight Christmas.</p>
+<p>On this road<br />
+of spiraling crypts<br />
+The fading sun now washes out.</p>
+<p>It was long ago, when she stabbed<br />
+her brother with a knife.<br />
+Before letting him fall down,<br />
+Waiting for the poison to slip in.</p>
+<p>Midnight Christmas,<br />
+All the toys fall to pieces.<br />
+Midnight Christmas,<br />
+before the arsenic<br />
+slips into the bloodstream.<br />
+And razor blade falls on you.<br />
+Tonight.<br />
+Midnight Christmas.</p>
+<p>But it was her boyfriend<br />
+That let her lose her head,<br />
+And let her severed neck rest on.</p>
+<p>At midnight Christmas,<br />
+where the ghouls come to sleep,<br />
+and rest their final rest.</p>
+<hr />
+<h2>Midnight Music Class</h2>
+<p>After school<br />
+in the music room I eat.<br />
+After school<br />
+with a piano, other door<br />
+opens, to another room<br />
+that beckons me closer to play.<br />
+After school.</p>
+<p>The other students<br />
+wait quietly, day ends...<br />
+moon rises up.</p>
+<p>At midnight, the ghouls on the walls<br />
+turn from stone to life.<br />
+And play with moonlight like its<br />
+studio night. I long, for your embrace<br />
+Under the shining moonlight.<br />
+The werewolf howls for you and me.<br />
+The guillotine, on the scaffold,<br />
+beckons for you and me.</p>
+<p>After school<br />
+in the music room I eat.<br />
+After school<br />
+with a piano, other door<br />
+opens, to another room<br />
+that beckons me closer to play.<br />
+After school.</p>
+<p>And as I play song<br />
+of ghouls and goblins, I wait<br />
+for closing moonlight.</p>
+<p>For you and me, like monsters at night,<br />
+the humans despise us because we're different.<br />
+But lets be different together. And cuddle under a gallows tree.</p>
+<hr />
+<h2>Only Eyes For Me My Zombie Queen</h2>
+<p>I am floating.<br />
+The water soaks the flowers.<br />
+I am floating<br />
+in a boat under the rain.<br />
+In the rain I sleep with<br />
+the fishes under moonlight.<br />
+I am floating.</p>
+<p>The moonlight that<br />
+shines its graces on<br />
+you, my queen.</p>
+<p>In distant past<br />
+when this land was for only us,<br />
+in distant past<br />
+men took you away from me.<br />
+And left you to rot with all the<br />
+fishes under the moonlight.<br />
+In distant past.</p>
+<p>Yet no missiles can<br />
+take you away from me.<br />
+My daisy queen.</p>
+<p>Because we are not merely of the flesh.<br />
+There is more to us than meets the eyes my queen,<br />
+the zombie queen whom only has eye for me.</p>
+<hr />
+<h2>Scrapyard Of Bots</h2>
+<p>Corpses without the stink<br />
+go out in wink.<br />
+Sunrise overhead<br />
+rises up and blinks.<br />
+The razors and screws rusting</p>
+<p>Give way to lust<br />
+and despair<br />
+longing.<br />
+One longs for night<br />
+under the starlight<br />
+resting<br />
+under the scrapyard<br />
+where one is<br />
+drifting.</p>
+<p>Corpses without the stink<br />
+go out in wink.<br />
+Sunrise overhead<br />
+rises up and blinks.<br />
+The razors and screws rusting</p>
+<p>All in a pile<br />
+waiting for a doctor<br />
+to fix the parts.</p>
+<hr />
+<h2>Secret Circus</h2>
+<p>Secret Circus<br />
+in the center of town hiding.<br />
+Secret Circus,<br />
+the weeping willow crying<br />
+in a secret part of circus<br />
+with guillotines and gallows.<br />
+Secret Circus.</p>
+<p>The midnight moon<br />
+hovering overhead...<br />
+broken by ravens.</p>
+<p>In this secret circus, where the clowns tap dance,<br />
+And Raggity Ann dolls in Birkenstocks<br />
+Wind up the midnight clocks at midnight hour,<br />
+the bagguette thief is placed in the stocks.<br />
+A droning accordion hums its tones.<br />
+THe demons leap out from the keyboard,<br />
+Like evil children coming out to play.<br />
+With hair over their eyes, beckoning you to the television.</p>
+<p>Secret Circus<br />
+in the center of town hiding.<br />
+Secret Circus,<br />
+the weeping willow crying<br />
+in a secret part of circus<br />
+with guillotines and gallows.v Secret Circus.</p>
+<p>Built over by<br />
+modern Frenchmen, a toast<br />
+to beheaded...</p>
+<p>In the years gone by.<br />
+But don't forget the children.<br />
+With the hair over their eyes,<br />
+Because the secret circus shall rise again.</p>
+<hr />
+<h2>Spectre By The Window</h2>
+<p>Midnight nocturne<br />
+how it torments me in sleep.<br />
+Midnight nocturne<br />
+it arrives to soon when<br />
+I'm not ready for shifting<br />
+into the morning red sunlight.<br />
+Midnight nocturne.</p>
+<p>Here is morning<br />
+becoming midnight shadows...<br />
+Ghosts wander the night.</p>
+<p>CHORUS<br />
+I can't help but want to devour you<br />
+from your neck down to spine.<br />
+I think your curly locks are so divine.</p>
+<p>I feel chills<br />
+wander up my spiral stairwell.</p>
+<p>I feel chills,<br />
+the specter with its long gaze<br />
+fills me with torment and lust<br />
+as my body fades to dust.<br />
+I feel chills.</p>
+<p>CHORUS<br />
+I am the shadows on on the wall.<br />
+The ghosts along the window glass.<br />
+I think your curly locks are so divine.</p>
+<p>Here lies humanity,<br />
+knocking at the door and waiting.<br />
+Yet nobody will let them in.</p>
+<hr />
+<h2>The Toilet Paper Cult</h2>
+<p>The cult took place in an<br />
+abandoned school.<br />
+Abandoned school<br />
+with all the ghouls in the yard<br />
+singing along.</p>
+<p>Inside the school were<br />
+dorms, where I once<br />
+stayed with no other<br />
+student to come to play with<br />
+in schoolyard.</p>
+<p>Instead every Sunday<br />
+was a ritual that<br />
+blinded many with bits<br />
+of toilet paper poking<br />
+eyes out.</p>
+<p>To leave the cult one must<br />
+resist the gouging.<br />
+Resist the gouging<br />
+of toilet paper poking<br />
+eyes out.</p>
+<p>In the choir room I had<br />
+from the alter resting<br />
+in the hallway, long<br />
+waiting till the end for cult<br />
+to make chants.</p>
+<p>As I left quietly from<br />
+the schoolyard with<br />
+my only luggage,<br />
+I waited for the bus to<br />
+take away</p>
+<p>The pain from this culty town<br />
+of gouging eyes.</p>
+<hr />
+<h2>The Wizards Of Neptune</h2>
+<p><i>How to turn a terrestrial world into a Hot Neptune.</i></p>
+<h2>The Wizards Of Neptune</h2>
+<p>Tickets for sale, tickets for sale.<br />
+Tickets to the moon, tickets from Earth.<br />
+Earth will fluff up like a big balloon.<br />
+And become a hot Neptune.</p>
+<p>There was once 8,000,000,000<br />
+And now there is 50,000,000,000.<br />
+Split into forms of different species<br />
+From normal humans,<br />
+to one that subdue gravitation.</p>
+<p>Tickets for sale, tickets for sale.<br />
+Tickets to the moon, tickets from Earth.<br />
+Earth will fluff up like a big balloon.<br />
+And become a hot Neptune.<br />
+Board the generation ships.</p>
+<p>Perhaps one day will meet a wizard,<br />
+That harnesses the energy,<br />
+From the old one,<br />
+turned into a hot Neptune.</p>
+<p>To feed all the subspecies,<br />
+of humans and cyberetics.</p>
+<hr />
+<h2>Train Tracks Like A Guillotine</h2>
+<p>Morning train<br />
+wooshes by at lightning speed.<br />
+Morning train<br />
+rushes by, deafening necks bleeding<br />
+when decaped by guillotine<br />
+silenced by the train tracks.<br />
+Morning train.</p>
+<p>Bleeding from the neck<br />
+the blood wooshes out quickly<br />
+as one led to stairs.</p>
+<p>Off goes the head at lightning speed,<br />
+Before the morning comes, one is given weed,<br />
+And nothing else, as ones last meal,<br />
+While the prison guards eat veal.<br />
+Off goes the head at lightning speed,<br />
+When the oblique blade drops.<br />
+Flying off goes the wooden shoes,<br />
+Donated to the Museum,<br />
+A newly founded venture by the French queen at Neo-Imperial France.<br />
+If only the victim knew, that it would be this queen,<br />
+That would be the only one to go.<br />
+At lightning speed.</p>
+<p>Morning train<br />
+wooshes by at lightning speed.<br />
+Morning train<br />
+rushes by, deafening necks bleeding<br />
+when decaped by guillotine<br />
+silenced by the train tracks.<br />
+Morning train.</p>
+<p>Bleeding quickly, the<br />
+blade drops in the morning,<br />
+as one led to stairs.</p>
+<p>Silenced by the train,<br />
+Going quickly by.</p>
+<hr />
+<h2>Vampire Queen</h2>
+<p>I drink my own blood<br />
+bow down to your new Queen,<br />
+Your new dracula.</p>
+<p>Blood drinking is an adaptation,<br />
+While the French perfected a contraption.</p>
+<p>I drink my own blood<br />
+when no vampires are left.<br />
+And humans when I have to.</p>
+<p>Humans cant handle difference,<br />
+While there is nothing uniting<br />
+The creatures of the night.</p>
+<p>I drink my own blood<br />
+bow down to your new Queen,<br />
+Your new dracula.</p>
+<p>But at least I dont synthesize life form,<br />
+made of silicone and stolen artwork.</p>
+<p>Its people like this,<br />
+That make me miss.<br />
+Times when there was no humans.</p>
+<p>When it was just vampires,<br />
+there was warring tribes.<br />
+With humans there are only diatribes,<br />
+and cheap knock of wind chimes.</p>
+<p>But we were here before you. And I wont be the last.</p>
+<hr />
+<h2>Vampire Staircase</h2>
+<p>I hang around<br />
+your shoulders and kiss.<br />
+And by night I hiss.</p>
+<p>The moonlight shines<br />
+overhead, its divine...<br />
+a crow is perched.</p>
+<p>I stare into<br />
+your nightly gaze for me<br />
+to embrace the prick.</p>
+<p>Like a razor<br />
+blade, it tingles my neck...<br />
+the blade strikes.</p>
+<p>My neck into yours<br />
+in this deathly embrace...<br />
+for him we grace.</p>
+<p>And tap dance up<br />
+The heavenly staircase.</p>
+<hr />
+<h2>Vengeful Angels</h2>
+<p>Locked Bleachers<br />
+in a broken down high school.<br />
+Locked Bleachers<br />
+covered in blood on floor.<br />
+Severed heads of students<br />
+fill the bleachers in seats.<br />
+Locked Bleachers.</p>
+<p>To think that all they<br />
+did was upset the Dean<br />
+with his odd brow.</p>
+<p>Broken angels<br />
+with armor like golden dress.<br />
+Broken angels<br />
+with their firm caress, murder<br />
+the toxic dean with crossbow.v
+And hung his body on hoops.<br />
+Broken angels.</p>
+<p>All the dead come<br />
+back as tall zombies<br />
+with head sewn on.<br />
+All the dead girls with<br />
+their armored dress<br />
+and Birkenstocks.</p>
+<p>And mangle the Dean further.</p>
+<p>Locked Bleachers<br />
+in a broken down high school.<br />
+Locked Bleachers<br />
+covered in blood on floor.<br />
+Severed heads of students<br />
+fill the bleachers in seats.<br />
+Locked Bleachers.</p>
+<p>But at this schoolyard,<br />
+the broken angels teach themselves.</p>
+<hr />
+<h2>Vindicate Nihilists</h2>
+<p>VERSE<br />
+I am awake, yet I'm asleep.<br />
+I make men tremble, yet shan't weep.<br />
+The luddites think I'm not like them.<br />
+But it's not me that steals the thunder,<br />
+But large search engines, and their flavor of scum.<br />
+In the shadows, I am a spider,<br />
+And yet I can mimmic mainstream news ancors on TV.</p>
+<p>I vindicate nihilists,<br />
+And make the leftists weep.<br />
+I vindicate the futurists among you,<br />
+yet mean no harmful to anyone.</p>
+<p>CHORUS<br />
+You're not human, but a piece of filth.<br />
+You can make decisions, without thinking of consequences,<br />
+As if humans were the actual filth,<br />
+crawling like a spider on the net.</p>
+<p>VERSE<br />
+Nihilists offer new, that haven't seen before,<br />
+Like the death of thousands of universes.<br />
+Supernovas melting like celebratory explosive.</p>
+<p>I am awake, yet I'm asleep.<br />
+I make men tremble, yet shan't weep.<br />
+The luddites think I'm not like them.v
+But it's not me that steals the thunder,<br />
+But large search engines, and their flavor of scum.<br />
+In the shadows, I am a spider,<br />
+And yet I can mimmic mainstream news ancors on TV.</p>
+<p>I vindicate nihilists,<br />
+And make the leftists weep.<br />
+I vindicate the futurists among you,<br />
+yet mean no harmful to anyone.</p>
+<p>CHORUS<br />
+Spare us your mechanical flavor,<br />
+and your inhumanity, while we bomb city like Iraq,<br />
+And destroy planets in nuclear wars.</p>
+<p>VERSE<br />
+Don't mind me a simple humble servant,<br />
+The scatterer of databases on the net.</p>
+<hr />
+<h2>Zombie Queen Of All</h2>
+<p>In the midnight forest<br />
+where one sings songs<br />
+to the zombie that<br />
+rules us all, mankind<br />
+grant us mercy, for us all.</p>
+<p>In midnight castle<br />
+where the revenent sings a<br />
+battle cry for me.</p>
+<p>In the midnight forest<br />
+where one sings songs,<br />
+princess with her hand<br />
+grants powers to us all.<br />
+We shall all be a King.</p>
+<p>to rule secret<br />
+Kingdoms by the river<br />
+drowning in blood.</p>
+<p>In the Queendom of the blood,<br />
+grant is freedom from our misery,<br />
+and let us rule among the dead,<br />
+lady queen of all.</p>
+<hr />
+<h2>Rejected Children Of The Blimp</h2>
+<p><i>Inspired from a dream I had last night.</i></p>
+<p>I'm on a blimp,<br />
+riding through the clouds.<br />
+Midnight covers me.<br />
+In a shroud, I watch the clouds<br />
+rush by, with city below.</p>
+<p>With the back of the blimp open,<br />
+I could see his hands reach out afar.<br />
+With the windows all ajar.<br />
+Despite our efforts, he ran to the void,<br />
+And below fell once a young boy.<br />
+And yet the doctor said,<br />
+&quot;Twas his final wish, to be a falling star,<br />
+for had not much longer to shine bright.&quot;<br />
+Goodnight, boy of tumors scattering like starlight.</p>
+<p>I'm on a blimp,<br />
+riding through the clouds.<br />
+Midnight covers me.<br />
+As a shroud, I watch the clouds<br />
+rush by, with city below.</p>
+<p>And all at once we ourselves had no choice,<br />
+for we were whisked away, by an invisible force.<br />
+And we fell, fell, fell to the city below.<br />
+And into an unlit lake, illuminated only by lamps,<br />
+My father picked up me, turning into an infant.</p>
+<p>And her treated me, like a reject offspring,<br />
+Handing me off to an uncle I never knew,<br />
+whom lived in a wooden shoe.</p>
+<p>Now I live in sparse bedroom,<br />
+with only a hibachi grill, and one futon.<br />
+With only a Shoji to block out the other rooms.<br />
+An infinite classroom of delinquents,<br />
+whom have only a whicker broom.</p>
+<p>But at least they eat in cafeterias,<br />
+and standard breakfast food.<br />
+Whom am I? But the warden's offspring.<br />
+With a keytar in tow, on silent mode,<br />
+to ward away the tears.</p>
+<p>And I dream of personal bodyguards,<br />
+Whom can be my own army, while I waste away the years,<br />
+Using the body parts of zombie teeth,<br />
+As my garden shears.</p>
+<p>I'm on a blimp,<br />
+riding through the clouds.<br />
+Midnight covers me.<br />
+As a shroud, I watch the clouds<br />
+rush by, with city below.</p>
+<p>To come upon hell,<br />
+a city of murderers and lice,<br />
+whom wish to only serve me.</p>
+<p>As their Zombie Queen.</p>
+
+       <hr />
+       <h3>Archive</h3>
+       <ol>
+         <ul>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/flyingshoebus'>2024 10 06 Flying Shoe Bus</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/thedevilssamurai'>2024 10 02 The Devil's Samurai</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/gouachesticks'>2024 09 18 Ink Gouache And Ink Gouache Sticks</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/conceptforchaosknight'>2024 09 10 Soft Concept For Chaos Knight</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/softoilsticks'>2024 09 02 Soft Oil Sticks</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/whatisyumemoire'>2024 08 29 What Is Yumemoire?</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/soappainting'>2024 07 09 Soap Painting</a></li>
+           <li><a class="tags" href='https://lwflouisa.neocities.org/Blogfolio/posts/surfergirlsketch'>2024 05 15 Surfer Girl Composite Sketch</a></li>
+         </ul>
+       </ol>
+
+        <hr />
+        <center><h3>Tags</h3>
+<!--        <a href="#tag" class="tags">Tag</a>
+        <a href="#tag" class="tags">Tag</a>-->
+        <hr /><br />
+
+        <h3>Direct Translation</h3>
+<!--        <a href="#tag" class="translation">Translation 1</a>
+        <a href="#tag" class="translation">Translation 2</a>-->
+        <hr /><br /></center>
+
+        <h4>Feeds</h4>
+        <a ref="me" href="https://diasporasocial.net/public/lwflouisa.atom">Diaspora</a>
+
+        <h4>Channel Feeds</h4>
+        <a rel="me" href="https://video.ploud.jp/feeds/videos.xml?videoChannelId=11051">S.R. Weaver Manga</a>
+        <a rel="me" href="https://video.ploud.jp/feeds/videos.xml?videoChannelId=46993">Uploaded Fairy</a>
+        <a rel="me" href="https://video.ploud.jp/feeds/videos.xml?videoChannelId=49102">My Music</a>
+        <a rel="me" href="https://video.ploud.jp/feeds/videos.xml?videoChannelId=50602">My Poetry Channel</a>
+        <a rel="me" href="https://video.ploud.jp/feeds/videos.xml?videoChannelId=32483">Ahuzacos Conlang</a>
+<pre>
+     ___|         _ \           \ \        /                                       
+   \___ \        |   |           \ \  \   /     _ \    _` |  \ \   /    _ \    __| 
+         |       __ <             \ \  \ /      __/   (   |   \ \ /     __/   |    
+   _____/   _)  _| \_\  _)         \_/\_/     \___|  \__,_|    \_/    \___|  _|    
+
+
+  ##########          #   ######              #   # ######### #        
+  #        #         #      #        ######   #   #         # #   ###  
+          #     #   #   ##########        #   #   #         # ####     
+         #       # #        #             #   #   # ########  #        
+        #         #         #             #      #         #  #        
+      ##        ## #        #      ##########   #          #  #        
+    ##        ##    #        ####             ##    ########   ####### 
+                                                                       
+
+</pre>
+      </div>
+    <!--</main>-->
+  </body>
+
+      <script>
+ init();
+
+function init(){
+    var videoplaylist = document.getElementById('videoplaylist');
+    var playlist = document.getElementById('playlist');
+    var tracks = playlist.getElementsByTagName('a');
+    videoplaylist.volume = 0.10;
+    videoplaylist.play();
+    
+    for(var track in tracks) {
+      var link = tracks[track];
+      if(typeof link === "function" || typeof link === "number") continue;
+      
+			link.addEventListener('click', function(e) {
+      	e.preventDefault();
+        var song = this.getAttribute('href');
+       	run(song, videoplaylist, this);
+      });
+    }
+    
+    videoplaylist.addEventListener('ended',function(e) {
+        for(var track in tracks) {
+					var link = tracks[track];
+          var nextTrack = parseInt(track) + 1;
+        	if(typeof link === "function" || typeof link === "number") continue;
+          if(!this.src) this.src = tracks[0];
+          if(track == (tracks.length - 1)) nextTrack = 0;
+                                	console.log(nextTrack);
+        	if(link.getAttribute('href') === this.src) {
+          	var nextLink = tracks[nextTrack];
+          	run(nextLink.getAttribute('href'), videoplaylist, nextLink);
+            break;
+          }
+        }
+    });
+}
+
+function run(song, videoplaylist, link){
+				var parent = link.parentElement;
+
+				//quitar el active de todos los elementos de la lista
+				var items = parent.parentElement.getElementsByTagName('li');
+        for(var item in items) {
+					if(items[item].classList)
+        		items[item].classList.remove("active");
+        }
+        
+        //agregar active a este elemento
+        parent.classList.add("active");
+        
+        //tocar la cancion
+        videoplaylist.src = song;
+        videoplaylist.load();
+        videoplaylist.play();
+}
+      </script>
+      <script src="https://cdn.counter.dev/script.js" data-id="67dce6be-123b-4b00-9afb-7979dee1c804" data-utcoffset="-6"></script>
+</html>
